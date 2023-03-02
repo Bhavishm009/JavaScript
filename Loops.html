@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <h3>Loops</h3>
+</head>
+
+<body>
+    <h3 id="Loops"></h3>
+    <script>
+        /* a loop is a programming construct that excutes a piece of 
+         the code as long as a certainn condition met
+         1] entry controlled loop
+         condition is cheaked before executeing a code
+         1] for loop 2] while loop
+         before entring a loop the conditon is cheaked if the only conditon
+        is met it enter loop and execute the code */
+        //For Loop
+        //  let x;
+        //  for(x=0;x<5;x++){
+        //     console.log(x)
+        //  }
+        document.getElementById('Loops').innerHTML
+
+        //While Loop
+        // let y = 1 
+        // while (y<=5) {
+        //     console.log(y)
+        //     y++
+
+        // }
+
+        /*
+         2] exit controlled loop
+         The Text conditon is checked after  the loop has been executed i n this case 
+        the code get executed  atleast  one's
+        1 ] do while loop
+        */
+        // Do - While - Loop
+
+        // let z =5;
+        // do{
+        //     console.log(z)
+        //     z++
+        // }while(z<10)
+
+
+
+        /*
+        Breaking the loop
+        
+        Break is used to break out of the loop
+        for(i=1;i<=10;i++)
+        {
+        documnet.write(i + 'is The current number')
+        if ( i == 5){
+            break;
+        }
+        }
+        */
+        // let a ;
+        // for(a=1;a<=10;a++)
+        // {
+        //     console.log(a)
+        //     if(a==5){
+        //         break
+        //     }
+        // }
+        /*
+        Skiping a loop cycle
+        we use continue Keyword
+        */
+        let b;
+        for (b = 1; b <= 10; b++) {
+            if (b == 10)
+                continue
+            console.log(b)
+
+        }
+
+    </script>
+</body>
+
+</html>

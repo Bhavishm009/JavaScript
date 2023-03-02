@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <h3>Practice</h3>
+</head>
+
+<body>
+    <p id="demo">
+
+
+    </p>
+</body>
+<script>
+
+    let cars = ['bmw', 'volvo', 'honda']
+
+    document.getElementById('demo').innerHTML = cars;
+
+
+    let bmw = cars[0];
+    document.getElementById('demo').innerHTML = bmw;
+
+
+    let len = cars.length
+    document.getElementById('demo').innerHTML = len;
+
+    let last = cars[cars.length - 1];
+    document.getElementById('demo').innerHTML = last;
+
+    // forEach Will Return us The item,index, array
+    cars.forEach((item, index, array) => { console.log(item, index, array) });
+
+    document.getElementById('demo').innerHTML = cars.toString();
+
+
+
+    let last1 = cars.pop();
+    document.getElementById('demo').innerHTML = last1;
+    let last2 = cars[cars.length - 1];
+    console.log(last2)
+
+
+    cars.push('audi')
+    document.getElementById('demo').innerHTML = cars;
+
+
+    cars.shift()
+    document.getElementById('demo').innerHTML = cars;
+    // volvo,audi
+
+    cars.unshift('hyundai')
+    document.getElementById('demo').innerHTML = cars;
+    // hyundai,volvo,audi
+
+    let bikes = ['yamaha', 'suzuki', 'royal-enfiled']
+    let vehicle = cars.concat(bikes)
+    document.getElementById('demo').innerHTML = vehicle;
+    // hyundai,volvo,audi,yamaha,suzuki,royal-enfiled
+
+    vehicle.sort();
+    document.getElementById('demo').innerHTML = vehicle;
+
+    vehicle.reverse();
+    document.getElementById('demo').innerHTML = vehicle;
+
+</script>
+
+
+
+
+</html>
