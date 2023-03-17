@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Object propreties</title>
+    </head>
+    <body>
+        <h1 id="demo"></h1>
+        <button id="click me">click me</button>
+      <!-- <script>  var student = {
+            name: 'bhavish',
+            age: 22,
+            studies: 'js'
+        };
+        student.name= 'harsh'
+        x = student.age
+        document.getElementById('demo').innerHTML =student.name + ' the age ' + x + ' ' + 'studis' + ' '  + student.studies  -->
+
+
+      <script>
+        let user = {
+            name: 'bhavish',
+            age: 22,
+        };
+        function sayHi(){
+            alert('hello..!')
+        };
+        user.message = sayHi;
+        document.getElementById('demo').innerHTML = 'Hi' + user.name;
+        document.getElementById('click me').onclick =  user.message;
+      </script>
+
+
+    </script>
+    </body>
+</html>

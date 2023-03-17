@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Object</title>
+</head>
+
+<body>
+    <p id="object"></p>
+    <script>
+        /*
+              JavaScript Is object oriented programming language and everything in JavaScript is a object,
+              A JavaScript Object is like real life entity having state and behavior for example a car 
+              javascript is template based and we can create a object without the need of having class.       
+        */
+
+        var student = {
+            name: 'bhavish',
+            age: 22,
+            studies: 'js'
+        };
+        document.getElementById('object').innerHTML =student.name + ' the age ' + student.age + 'studeis' + ' '  + student.studies
+    </script>
+
+    <script>
+        var student =  new Object();
+            student.name ='bhavish',
+            student.age = 22,
+            student.studies = 'js'
+        
+        document.getElementById('object').innerHTML =student.name + ' the age ' + student.age + 'studeis' + ' '  + student.studies
+    </script>
+
+    <script>
+        function stud(name,age,studies) {
+            this.name = name,
+            this.age = age,
+            this.studies = studies
+           
+        }
+        var student = stud('bhavish',22,'js');
+        document.getElementById('object').innerHTML = student.name + ' the age ' + student.age + 'studeis' + ' '  + student.studies
+        /*
+        A JavaScript objject is basically a collection of unordered properties.
+        values associated with javascript objects are called its properties,
+        propreties can be added,updated and deleted excluding read only properties       
+        */
+    </script>
+</body>
+
+</html>

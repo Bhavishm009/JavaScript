@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Hello</title>
+    </head>
+    <body>
+        <h1 id="demo"></h1>
+        <script>
+            
+            var car = {
+                model: BMW,
+                color:'blue',
+                fuel_type:'diesel',
+                get fuel(){
+                    return this.fuel_type;
+                },
+            };
+            document.getElementById('demo').innerHTML = car.fuel;
+
+        </script>
+    </body>
+</html>

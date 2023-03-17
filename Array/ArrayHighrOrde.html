@@ -33,11 +33,15 @@ Higher Order Function
   //one value using a function
 // this mwthod does not reduce the original array
 
-    num4 =num1.reduce(sum)
+    num4 = num1.reduce(sum)
     function sum (total,value){
         return total + value
     }
     document.getElementById('array').innerHTML = num4;
+
+    let arr = [1,2,3,4,5,6,7,8,9,10,112,445]
+var shalini = arr.map((x)=>x.toString(8))
+console.log(shalini,'hi')
     </script>
 </body>
 </html>
