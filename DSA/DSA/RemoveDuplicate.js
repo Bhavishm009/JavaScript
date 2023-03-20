@@ -47,12 +47,26 @@
 // console.log(b)
 
 // function RemoveCopy (a){
-//     obj ={}
+//     var obj ={}
+    
 //     for(let i of a){
 //         obj[i] = true
 //     }
 //     let b = Object.keys(obj)
+//     console.log(obj)
+//     let c = Object.values(obj)
 //     return b
+    
 // }
-// console.log(RemoveCopy([1,2,3,4,1,2,3,4]))
+
+// console.log(RemoveCopy([0,0,1,2,3,4,1,2,3,3,3,3,4]))
 //Time Complexity O(n)
+
+// let a = [1,2,3,4,56,7]
+  
+// for(let Value of a){
+//     console.log(Value)
+// }
+// for(let index in a){
+//     console.log(index)
+// }
