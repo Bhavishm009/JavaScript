@@ -9,7 +9,7 @@ function Power(n){
         return Power(n/2)
     }
 }
-console.log(Power(16))
+console.log(Power(60))
 
 
 
