@@ -8,4 +8,4 @@ function Palindrome(str) {
   return false;
 }
 
-console.log(Palindrome("bhahb"));
+console.log(Palindrome("BhavishthsivahB"));
