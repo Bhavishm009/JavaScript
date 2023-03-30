@@ -5,22 +5,24 @@ function Reverse(w){
     }
     return s
 }
-function ReverseWords(s){
-    let w = ''
-    let ans = ''
-    for(let i =0;i<s.length;i++){
-        if(s[i]=='.'){
-            w=Reverse(w)
-            ans += w
-            ans += '.'
-        }else{
-            w+=s[i]
-        }
-    }
-    if(w !=''){
-        Reverse(w)
-        ans += w
-    }
-    return ans
-}
-console.log(ReverseWords('Shalini.jhuth.nahi.bolo'))
+
+console.log(Reverse('Hello.HELLO.BHavish.'))
+// function ReverseWords(s){
+//     let w = ''
+//     let ans = ''
+//     for(let i =0;i<s.length;i++){
+//         if(s[i]=='.'){
+//             w=Reverse(w)
+//             ans += w
+//             ans += '.'
+//         }else{
+//             w+=s[i]
+//         }
+//     }
+//     if(w !=''){
+//         Reverse(w)
+//         ans += w
+//     }
+//     return ans
+// }
+// console.log(ReverseWords('Shalini.jhuth.nahi.bolo'))

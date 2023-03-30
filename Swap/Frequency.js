@@ -17,6 +17,6 @@ function MaxFre(arr){
         }
     })
 
-    return mp
+    return maxKey
 }
-console.log(MaxFre())
+console.log(MaxFre([1,2,3,1,2,3,1,2,3,2,2]))
